@@ -1,0 +1,12 @@
+{
+  "name": "bahatibox-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BahatiBox static HTML, CSS and vanilla JavaScript demo site",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/check-static-site.mjs",
+    "check": "node --check app.js && node --check scripts/serve.mjs && node --check scripts/check-static-site.mjs"
+  }
+}
